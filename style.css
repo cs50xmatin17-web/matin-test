@@ -1,0 +1,136 @@
+*{padding: 0;
+margin: 0;}
+body{background-color: bisque;
+height: 170vh;}
+
+.main-header{    display: flex;
+    background-color: rgba(69, 17, 17, 0.748);
+    padding-bottom: 15px;
+    height: 20px;
+    padding-top:10px;
+    align-items: center;
+border:3px solid #ddd;
+box-shadow: 15px 0px 15px rgba(69, 17, 17, 0.748);
+position: sticky /* fixed */;
+top: 0;}
+a{text-decoration: none;
+    color: aliceblue;
+font-size: large;}
+
+a:hover{color:white;}
+/* menu for header*/
+.menu-header{list-style: none;
+color: aliceblue;
+font-style: italic;
+font-weight: bolder;
+}
+
+.menu-header:hover{transform: scale(1.1);
+}
+
+ul{display: flex;
+    margin-left: 30px;
+    align-items: center;
+gap: 30px;}
+
+/* profile fot user */
+
+.profile{border: 2px solid white;
+border-radius: 50%;
+color: aliceblue;
+list-style: none;
+width: 30px;
+height: 30px;
+margin-right: 50%; }
+
+.avatar{width: 30px;
+height:30px;
+border-radius: 52%;
+}
+
+/* logo for website */
+.logo{font-style: italic;
+     font-weight: bolder; 
+    font-size: 30px;
+    color: #ddd;
+display: flex; 
+justify-content: flex-start;
+cursor: pointer;}
+ /* content */
+.div-span-1{display: flex;
+justify-content: space-between;}
+
+.span-1{ border:  3px solid rgb(222, 168, 135);
+display: block;
+width: 220px;height: 200px;
+margin:1%;
+border-radius: 5px;}
+
+.div-main1{width: 300px;
+height: 300px;
+border: 3px solid rgb(222, 168, 135);
+}
+
+.div-item{
+display: flex;
+width:100px;
+height: 100px;
+}
+.div-item1{display: block;
+width:100px;
+height: 100px;
+background-color: aqua;
+justify-content: flex-start;
+}
+
+.div-item2{display: block;
+width:100px;
+height: 100px;
+background-color: aqua;
+justify-content: center;
+}
+
+.div-item3{display: block;
+width:100px;
+height: 100px;
+background-color: aqua;
+justify-content: flex-end;
+}
+
+.div-main2{width: 300px;
+height: 300px;
+border: 3px solid rgb(222, 168, 135);}
+
+.main-header{display: flex; 
+    justify-content: space-between;}
+
+.menu-left{display: flex;}
+
+.menu-right{ display: flex;
+justify-content: flex-end;}
+
+
+
+.div-main-1{display: flex;
+    justify-content: center;
+}
+.div-main-2{display: flex;
+justify-content: center;}
+
+.hidden{display: flex;
+}
+
+.div-nothidden{display: flex;
+justify-content: center;}
+
+.div-row1{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.div-row2{display: flex;
+justify-content: center;
+}
+
+.div-row3{display: flex;
+justify-content: flex-end;}
