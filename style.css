@@ -12,10 +12,13 @@ height: 170vh;}
 border:3px solid #ddd;
 box-shadow: 15px 0px 15px rgba(69, 17, 17, 0.748);
 position: sticky /* fixed */;
-top: 0;}
+top: 0;
+flex:0 1 auto}
 a{text-decoration: none;
     color: aliceblue;
-font-size: large;}
+font-size: large;
+white-space: nowrap;
+}
 
 a:hover{color:white;}
 /* menu for header*/
@@ -23,6 +26,7 @@ a:hover{color:white;}
 color: aliceblue;
 font-style: italic;
 font-weight: bolder;
+
 }
 
 .menu-header:hover{transform: scale(1.1);
@@ -55,16 +59,20 @@ border-radius: 52%;
     color: #ddd;
 display: flex; 
 justify-content: flex-start;
-cursor: pointer;}
+cursor: pointer;
+white-space: nowrap;
+}
  /* content */
 .div-span-1{display: flex;
-justify-content: space-between;}
+justify-content: space-between;
+flex-wrap: wrap;}
 
 .span-1{ border:  3px solid rgb(222, 168, 135);
 display: block;
 width: 220px;height: 200px;
 margin:1%;
-border-radius: 5px;}
+border-radius: 5px;
+flex-basis: 220px;}
 
 .div-main1{width: 300px;
 height: 300px;
@@ -104,10 +112,13 @@ border: 3px solid rgb(222, 168, 135);}
 .main-header{display: flex; 
     justify-content: space-between;}
 
-.menu-left{display: flex;}
+.menu-left{display: flex;
+flex:1 1 auto;}
 
 .menu-right{ display: flex;
-justify-content: flex-end;}
+justify-content: flex-end;
+
+gap: 50%;}
 
 
 
