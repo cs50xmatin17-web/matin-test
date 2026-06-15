@@ -145,3 +145,31 @@ justify-content: center;
 
 .div-row3{display: flex;
 justify-content: flex-end;}
+/* .hamburger-icon{width: 24px;height: 24px; display: block;} */
+
+
+
+
+
+
+
+
+
+.hamburger-menu{
+    object-fit: contain;
+}
+.hamburger-menu img{display: block;
+    width:35px;height: 40px;
+}
+
+/* responsive */
+
+@media(max-width:620px){
+    .menu-left ul li{display: none;}
+    .hamburger-menu{padding-left: 24px;}
+ 
+}
+@media(min-width:620px){
+.hamburger-menu{display: none;}    
+    
+}
